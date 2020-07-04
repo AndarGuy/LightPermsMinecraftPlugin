@@ -1,0 +1,12 @@
+name: LightPerm
+version: ${project.version}
+main: me.andarguy.lightperm.LightPerm
+api-version: 1.15
+authors: [AndarGuy]
+description: Light permission plugin for everyone (includes girls and blacks)
+website: andarguy.me
+depend: [DatabaseSupport]
+commands:
+  группа:
+    usage: /группа [изменить/статус] [имя игрока] [группа]
+    description: Комманда группа устанавливает группу привилегий игроку.

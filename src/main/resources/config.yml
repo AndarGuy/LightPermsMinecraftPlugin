@@ -1,0 +1,9 @@
+groups:
+  user:
+    default: True
+    permissions:
+      - put.your.permissions.here
+  super-user:
+    inherit: user
+    permissions:
+      - super.permission.for.super.user
